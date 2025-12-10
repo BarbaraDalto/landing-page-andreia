@@ -23,12 +23,13 @@ font-family:PlayfairDisplay-Regular;src: url(../fonts/PlayfairDisplay-Regular.tt
     --font-normal:PlayfairDisplay-Regular
  }
 
+
 .Brand-area {
     position: relative; 
     width: 100%;
     min-height: 60px;
+    margin: 0%;
 }
-
 .Brand-area h1 {
   position: absolute;
     right: 0;
@@ -58,7 +59,7 @@ font-family:PlayfairDisplay-Regular;src: url(../fonts/PlayfairDisplay-Regular.tt
 }
 .socials-contact a {
     margin: 0; 
-    padding: 8px 12px;
+    padding: 0px 12px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 14px;
@@ -71,15 +72,15 @@ font-family:PlayfairDisplay-Regular;src: url(../fonts/PlayfairDisplay-Regular.tt
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 header {
     background-color:#1A2847;
     font-family: var(--font-titulo);    
     color: var(--cor-destaque);
     text-align: center;
-    padding: 20px;   
+    padding: 0px;   
     display: flex;
     align-items: center;
     max-width:none; 
@@ -93,16 +94,16 @@ header img {
     height: 70px; 
     position: inherit;
     display: inline-block; 
-    margin: auto;
-    
+    margin: auto;    
 }
 
 header h1 {
-    background-color: var(--cor-escuro);
+    background-color:#1A2847;
     margin: auto;
     display: inline-block; 
     color: var(--cor-destaque);
     font-size: medium;
+    padding:10px;
 }
 
 header a {
@@ -110,6 +111,8 @@ header a {
     text-decoration: none;
     margin: auto;
     font-size: medium;
+    padding:10px;
+
 }
 .container-hero {
     position: relative; 
@@ -117,18 +120,19 @@ header a {
     justify-content: center; 
     align-items: center; 
     width: 100%;
+    height: 100%;
 }
 
 .container-hero h2 {
     position: absolute; 
-    top: 20%;
-    background-color:#1226405e;
+    top: 25%;
+    background-color:#12264049 ;
     color: rgb(253, 252, 252); 
     padding: 10px;
     margin: 0; 
     max-width: 100%;
-    width: 1200px;
-    height: 200px;
+    width: 100%;
+    height: 50%;    
     position: center;
 }
 
@@ -138,10 +142,9 @@ body {
 
 main {
     background-color:var(--cor-fundo);
-    padding: 20px;
-    border-radius: 18px 18px 0px 0px;
-    max-width: 1200px; 
-    min-width: 280px;
+    padding: 0px;
+    max-width: 100%; 
+    min-width: 100%;
     margin: auto;
 }
 
@@ -149,15 +152,14 @@ main {
     max-width: 100%;
     height: 300px;
     width:100%;
-    border-radius: 18px;
     margin: 10px 0;
 }
 .img2 {
-    border-radius: 50%;
+    border-radius:18px 18px 0 18px;
     width: 200px;
     height: auto;
     margin-right: 20px;
-   box-shadow: 0 0 15px 6px rgba(9, 27, 68, 0.466); 
+    box-shadow: 0 0 15px 6px rgba(9, 27, 68, 0.466); 
 }
 
 footer {
